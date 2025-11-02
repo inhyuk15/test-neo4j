@@ -1,5 +1,12 @@
+
+
+from src.graphdb2 import test2
+from src.graphdb1 import test
+
+
 def main():
-    print("Hello from neo4j!")
+    test2()
+    test()
 
 
 if __name__ == "__main__":
