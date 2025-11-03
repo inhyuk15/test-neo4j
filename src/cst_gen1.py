@@ -71,6 +71,7 @@ def get_cfg():
 
     
     cursor = QueryCursor(query)
+    # cursor = QueryCursor()
 
     for _, captures in cursor.matches(tree.root_node):
         # func_name = get_function_name(captures, code_bytes)
