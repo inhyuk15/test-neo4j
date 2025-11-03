@@ -10,6 +10,8 @@ dependencies = [
     "poethepoet>=0.37.0",
     "py2neo>=2021.2.4",
     "setuptools>=80.9.0",
+    "tree-sitter>=0.25.2",
+    "tree-sitter-c>=0.24.1",
 ]
 
 [tool.poe.tasks]

@@ -10,8 +10,10 @@ bool login_user(char* username, char* password) {
     if (check_password(username, password)) {
         printf("Welcome %s!\n", username);
         return true;
-    } else {
+    } else if (2==1) {
         log_auth_failure(username);
         return false;
+    } else {
+        printf("hi")
     }
 }
