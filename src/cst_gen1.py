@@ -36,7 +36,6 @@ def get_call_graph():
     for _, captures in cursor.matches(tree.root_node):
         if "func_name" in captures:
             for node in captures['func_name']:
-                print(f'... {node}')
                 func_name = code_bytes[node.start_byte:node.end_byte].decode('utf8')
                 print(f'func name: {func_name}') #2
     

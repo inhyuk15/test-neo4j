@@ -5,6 +5,10 @@ description = "Add your description here"
 readme = "README.md"
 requires-python = ">=3.12"
 dependencies = [
+    "dotenv>=0.9.9",
+    "langchain>=1.0.3",
+    "langchain-openai>=1.0.2",
+    "langgraph>=1.0.2",
     "neo4j==5.28.2",
     "neomodel==5.5.3",
     "poethepoet>=0.37.0",
